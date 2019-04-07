@@ -1,0 +1,32 @@
+tml, body {
+    background: #000000;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+p {
+    font-size: 15pt;
+    color: #ffffff;
+}
+
+input[type=button] {
+    padding: 10px;
+    border: solid 1px;
+    border-color: #eeeeee;
+    font-family: Verdana;
+    font-size: 14pt;
+    background: #43ff41;
+}
+
+input[type=button]:hover {
+    background: #8bff84;
+}
+
+table {
+    border-color: #ffffff;
+    color: #ffffff;
+}

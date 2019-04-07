@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Brain Quiz</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+
+        <br>
+        <br>
+        <br>
+
+        <center>
+
+            <p id="questionStr">The brain quiz, just click on the word being requested!
+                                            Our software will calculate how long it takes you to match the words.
+                                            In order to skip over a question just click on the randomize button. This also
+                                            resets the game clock.</p>
+
+            <br>
+
+            <a href="#" id="link1" onclick="check(this)"></a>
+            <a href="#" id="link2" onclick="check(this)"></a>
+            <a href="#" id="link3" onclick="check(this)"></a>
+            <a href="#" id="link4" onclick="check(this)"></a>
+            <a href="#" id="link5" onclick="check(this)"></a>
+
+            <br>
+            <br>
+            <br>
+
+            <input type="button" value="Start the quiz!" onclick="generateRandom()" id="btnAns">
+
+            <br>
+            <br>
+
+            <p id="statsStr"></p>
+
+            <br>
+            <br>
+
+            <p id="avgMatched">Average time (matching colors and text): </p>
+            <p id="avgUnMatched">Average time (un-matched colors and text): </p>
+            <p id="totalQuestions">Total questions finished: 0</p>
+
+        </center>
+
+    </body>
+
+
+
+</html>
